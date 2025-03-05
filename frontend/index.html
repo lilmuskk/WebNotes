@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catatan Saya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Catatan Saya 📝</h1>
+
+        <!-- Form untuk Menambah / Edit Catatan -->
+        <form id="note-form">
+            <input type="hidden" id="note-id">
+            <input type="text" id="note-title" placeholder="Judul Catatan" required>
+            <input type="text" id="note-content" placeholder="Isi Catatan" required>
+            <button type="submit">Simpan</button>
+        </form>
+
+        <!-- Daftar Catatan -->
+        <ul id="notes-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

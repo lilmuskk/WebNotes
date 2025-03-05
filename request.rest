@@ -1,0 +1,20 @@
+GET http://localhost:5000/notes
+
+
+###
+POST http://localhost:5000/notes
+Content-Type: application/json
+
+{
+  "title": "Belajar Backend",
+  "content": "Hari ini belajar membuat REST API menggunakan Express dan Sequelize"
+}
+
+###
+PUT http://localhost:5000/notes/1
+Content-Type: application/json
+
+{
+  "title": "Update Catatan",
+  "content": "Ini adalah catatan yang telah diperbarui."
+}
