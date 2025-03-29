@@ -5,7 +5,7 @@ import {
   createNote,
   updateNote,
   deleteNote,
-} from "../TugasTCC/NoteController.js";
+} from "./NoteController.js";
 
 const router = express.Router();
 

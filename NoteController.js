@@ -1,4 +1,4 @@
-import Note from "../TugasTCC/NoteModel.js";
+import Note from "./NoteModel.js";
 
 // GET All Notes
 async function getNotes(req, res) {

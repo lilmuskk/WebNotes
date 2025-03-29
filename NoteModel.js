@@ -1,5 +1,5 @@
 import { Sequelize } from "sequelize";
-import db from "../TugasTCC/Database.js";
+import db from "./Database.js";
 
 // Membuat tabel "notes"
 const Note = db.define(
